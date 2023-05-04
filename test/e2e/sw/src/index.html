@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Document</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+
+    <script type="module" src="index.ts"></script>
+  </head>
+  <body>
+    <ol>
+      <li>Register the service worker</li>
+      <li>Set a localStorage value to something</li>
+      <li>Fetch JSON that gets intercepted by the service worker</li>
+      <li>Make sure that the response is right</li>
+    </ol>
+    <menu>
+      <li><button id="register-sw">Register service worker</button></li>
+      <li><button id="unregister-sw">Unregister service worker</button></li>
+      <li><button id="set-localstorage">Set localStorage</button></li>
+      <li><button id="clear-localstorage">Clear localStorage</button></li>
+      <li><button id="fetch-json">Fetch JSON</button></li>
+    </menu>
+    <pre><code><output id="fetch-output">JSON will go here</output></code></pre>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "@jcbhmr/html-webstorage.worker--test-e2e-sw",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+    "@jcbhmr/html-webstorage": "file:../../.."
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-pwa": "^0.14.7"
+  }
+}
