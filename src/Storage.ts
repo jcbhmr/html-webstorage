@@ -13,7 +13,6 @@ import {
 const store = new WeakMap<Storage, UseStore>();
 const cache = new WeakMap<Storage, Map<string, string>>();
 const ready = new WeakMap<Storage, Promise<unknown>>();
-const bc = new WeakMap<Storage, BroadcastChannel>();
 
 class Storage {
   constructor(name: string) {
